@@ -20,18 +20,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-// const allowedOrigins = ["http://localhost:3000","http://localhost:3001"];
 app.use(cors({
-        origin: ["http://localhost:3000","http://localhost:3001"]   ,
-//      origin: function (origin, callback) {
-//      if (!origin) return callback(null, true);
-//      if (allowedOrigins.includes(origin)) {
-//        return callback(null, true);
-//      } else {
-//        return callback(new Error("CORS blocked this origin"));
-//      }
-//    },
-    methods: ["GET", "POST", "PUT", "DELETE"],  
+        origin: [
+            "http://localhost:3000",
+            "http://localhost:3001"
+        ],
+
+    // methods: ["GET", "POST", "PUT", "DELETE"],  
     credentials: true,
 }));
 
@@ -149,7 +144,7 @@ app.use(cors({
 //     net: "+18.08%",
 //     day: "+0.32%",
 //   },
-// ];
+//  ];
   
 //   tempHoldings.forEach((item) => {
 //   let newHolding = new HoldingsModel({
@@ -206,7 +201,8 @@ app.use(cors({
 // })
 //    res.send("DOne!");
 // });
-app.use("/api/auth", authRoute); 
+
+app.use("/auth", authRoute); 
 
 app.get('/allHoldings',userVerification, async(req, res)=> {
     let allHoldings = await HoldingsModel.find({});

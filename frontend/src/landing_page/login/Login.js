@@ -44,9 +44,7 @@ const Login = () => {
   };
 
   return (
-    <>
-      
-
+    <>      
       <div className="auth-container">
         <h2>Login to Zerodha</h2>
 

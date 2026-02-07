@@ -63,7 +63,7 @@ const Signup = () => {
 
                      <p className="auth-switch">
                       Already have an account?{" "}
-                     <a href="/login">Login</a>
+                     <a href={`${process.env.REACT_APP_FRONTEND_URL}/login`}>Login</a>
                      </p>
                 </form>
             </div>

@@ -30,7 +30,7 @@ const Login = () => {
       // Redirect to dashboard
       if(res.data.success){
         setTimeout(() => {
-          window.location.href = `${process.env.REACT_APP_FRONTEND_URL}/dashboard`;
+          window.location.href = `${process.env.REACT_APP_DASHBOARD_URL}/dashboard`;
       },1000);
       }
 

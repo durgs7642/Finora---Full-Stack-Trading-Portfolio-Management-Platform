@@ -11,7 +11,7 @@ export const AuthProvider = ({children}) => {
     const verifyUser = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:3002/auth/verify",
+        `${process.env.REACT_APP_BACKEND_URL}/auth/verify`,
         { withCredentials: true }
       );
       setUser(res.data.user);
@@ -29,14 +29,14 @@ export const AuthProvider = ({children}) => {
      
     const logout = async () => {
       const res = await axios.post(
-        "http://localhost:3002/auth/logout",
+        `${process.env.REACT_APP_BACKEND_URL}/auth/logout`,
         {},
         { withCredentials: true }
       );
       
         console.log(res.data);
         setUser(null);
-        window.location.href = "http://localhost:3000/login";
+        window.location.href = `${process.env.REACT_APP_FRONTEND_URL}/login`;
     };
 
     return (

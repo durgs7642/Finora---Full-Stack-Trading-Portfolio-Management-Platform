@@ -13,7 +13,8 @@ const Holdings = () => {
       setAllHoldings(res.data);
     })
     .catch((err) => {
-        window.location.href = "http://localhost:3000/login";
+      console.log("frontend url :", process.env.REACT_APP_FRONTEND_URL);
+      window.location.href = `${process.env.REACT_APP_FRONTEND_URL}/login`;
       console.error("Error fetching holdings:", err);
     });
   }, []);

@@ -18,6 +18,7 @@ function Brokerage() {
                 </div>
                 <div className='col-4 mt-5'>
                     <a href='#' className='fs-5'style={{textDecoration:"none"}}>List of charges</a>
+                    
                 </div>
             </div>
         </div>

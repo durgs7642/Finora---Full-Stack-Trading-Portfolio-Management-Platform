@@ -25,12 +25,12 @@ const Login = () => {
     if (!email || !password)
       return handleError("all fields are required")
     try {
-      const res = await axios.post("http://localhost:3002/auth/login", form, { withCredentials: true });
+      const res = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/auth/login`, form, { withCredentials: true });
       console.log(res.data);
       // Redirect to dashboard
       if(res.data.success){
         setTimeout(() => {
-          window.location.href = "http://localhost:3001/";
+          window.location.href = `${process.env.REACT_APP_FRONTEND_URL}/dashboard`;
       },1000);
       }
 

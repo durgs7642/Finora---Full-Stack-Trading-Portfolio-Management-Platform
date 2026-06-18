@@ -28,7 +28,6 @@ const Login = () => {
       const res = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/auth/login`, form, { withCredentials: true });
       console.log("login.js +++++++ ",res.data);
       // Redirect to dashboard
-      console.log("232323  ",process.env.REACT_APP_BACKEND_URL);
       if(res.data.success){
         setTimeout(() => {
           window.location.href = `${process.env.REACT_APP_BACKEND_URL}/dashboard`;

@@ -6,10 +6,10 @@ import axios from "axios";
 
 const Positions = () => {
   const [allPositions, setAllPositions] = useState([]);
-  console.log("backend url : ",process.env.REACT_APP_BACKEND_URL);
+  console.log("backend url : ", process.env.REACT_APP_API_URL);     // backend url
 
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_BACKEND_URL}/allPositions`, { withCredentials: true }).then((res) => {
+    axios.get(`${process.env.REACT_APP_API_URL}/allPositions`, { withCredentials: true }).then((res) => {   // backend url
       console.log(res.data);
       setAllPositions(res.data);
     })

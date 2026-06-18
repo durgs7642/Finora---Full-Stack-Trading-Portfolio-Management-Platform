@@ -12,8 +12,8 @@ const BuyActionWindow = ({ uid }) => {
   const [stockPrice, setStockPrice] = useState(0.0);
 
   const handleBuyClick = () => {
-    console.log("backend url :", process.env.REACT_APP_BACKEND_URL);
-    axios.post(`${process.env.REACT_APP_BACKEND_URL}/newOrder`, {
+    console.log("backend url :", process.env.REACT_APP_API_URL); // backend url
+    axios.post(`${process.env.REACT_APP_API_URL}/newOrder`, { // backend url
       name: uid,
       qty: stockQuantity,
       price: stockPrice,

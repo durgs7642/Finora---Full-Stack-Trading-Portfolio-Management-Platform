@@ -25,13 +25,13 @@ const Login = () => {
     if (!email || !password)
       return handleError("all fields are required")
     try {
-      const res = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/auth/login`, form, { withCredentials: true });
+      const res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/login`, form, { withCredentials: true }); // backend url
       console.log("login.js +++++++ ",res.data);
       // Redirect to dashboard
-      console.log("232323  ",process.env.REACT_APP_BACKEND_URL);
+      console.log("232323  ", process.env.REACT_APP_API_URL); // backend url
       if(res.data.success){
         setTimeout(() => {
-          window.location.href = `${process.env.REACT_APP_BACKEND_URL}/dashboard`;
+          window.location.href = `${process.env.REACT_APP_API_URL}/dashboard`;  // backend url
       },1000);
       }
 

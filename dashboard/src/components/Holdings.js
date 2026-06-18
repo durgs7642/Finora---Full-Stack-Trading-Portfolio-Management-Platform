@@ -13,8 +13,8 @@ const Holdings = () => {
       setAllHoldings(res.data);
     })
     .catch((err) => {
-      console.log("frontend url :", process.env.REACT_APP_FRONTEND_URL);
-      window.location.href = `${process.env.REACT_APP_FRONTEND_URL}/login`;
+      console.log("frontend url :", process.env.REACT_APP_API_URL); // frontend url 
+      window.location.href = `${process.env.REACT_APP_API_URL}/login`;   // frontend url
       console.error("Error fetching holdings:", err);
     });
   }, []);

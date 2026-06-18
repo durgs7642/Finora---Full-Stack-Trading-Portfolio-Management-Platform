@@ -30,12 +30,12 @@ const Signup = () => {
             return ("all fields are required")
 
         try{
-            const res = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/auth/signup`, form, { withCredentials: true })
+            const res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/signup`, form, { withCredentials: true }) // backendurl
             console.log(res.data);
             // redirect to dashboard after successful signup
             if(res.data.success){
                 setTimeout(() => {
-                    window.location.href = `${process.env.REACT_APP_BACKEND_URL}/login`;
+                    window.location.href = `${process.env.REACT_APP_API_URL}/login`; // backend url
                  },1000);
             }
         }catch(err){

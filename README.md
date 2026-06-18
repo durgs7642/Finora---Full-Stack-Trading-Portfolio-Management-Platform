@@ -1,6 +1,8 @@
-# TradeX 📈
+# Finora 📈
 
-TradeX is a modern full-stack trading and investment platform designed to provide users with a seamless experience for exploring market data, analyzing stocks, managing portfolios, and executing virtual buy/sell operations. The platform focuses on security, performance, and real-time financial insights through an intuitive and responsive user interface.
+### Full-Stack Trading & Portfolio Management Platform
+
+Finora is a modern full-stack trading and investment platform designed to provide users with a seamless experience for exploring market data, analyzing stocks, managing portfolios, and executing buy/sell operations. The platform focuses on security, performance, and real-time financial insights through an intuitive and responsive user interface.
 
 ---
 
@@ -26,8 +28,8 @@ TradeX is a modern full-stack trading and investment platform designed to provid
 
 ### 💹 Trading Functionality
 
-* Buy Stock Simulation
-* Sell Stock Simulation
+* Buy Stock Operations
+* Sell Stock Operations
 * Portfolio Management
 * Holdings Tracking
 * Transaction History
@@ -45,8 +47,8 @@ TradeX is a modern full-stack trading and investment platform designed to provid
 * Responsive Design
 * Modern Trading Dashboard
 * Interactive UI Components
-* Smooth Navigation
 * Mobile-Friendly Interface
+* Smooth Navigation
 
 ### ☁️ Cloud Integration
 
@@ -65,7 +67,7 @@ TradeX is a modern full-stack trading and investment platform designed to provid
 * HTML5
 * CSS3
 * Bootstrap
-* Chart.js / Financial Chart Libraries
+* Chart.js
 
 ### Backend
 
@@ -90,31 +92,34 @@ TradeX is a modern full-stack trading and investment platform designed to provid
 ## 📂 Project Structure
 
 ```bash
-TradeX/
+Finora/
 │
 ├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── build/
-│
 ├── dashboard/
-│   ├── src/
-│   ├── public/
-│   └── build/
-│
 ├── backend/
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
 │   ├── middleware/
-|   |   Util/
-│   ├── public/
-│   │   ├── frontend/
-│   │   └── dashboard/
-│   └── server.js
+│   └── public/
+│       ├── frontend/
+│       └── dashboard/
 │
 └── README.md
 ```
+
+---
+
+## 🔥 Key Highlights
+
+* Secure JWT Authentication & Authorization
+* Real-Time Trading Dashboard
+* Portfolio & Holdings Management
+* Interactive Market Analytics
+* Brokerage Calculation System
+* Responsive UI/UX
+* Cloud-Based Deployment
+* Scalable MERN Architecture
 
 ---
 
@@ -123,128 +128,61 @@ TradeX/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/tradex.git
-cd tradex
+git clone https://github.com/your-username/finora.git
+cd finora
 ```
 
 ### Install Dependencies
 
-#### Frontend
-
 ```bash
-cd frontend
-npm install
-```
-
-#### Dashboard
-
-```bash
-cd dashboard
-npm install
-```
-
-#### Backend
-
-```bash
-cd backend
-npm install
+cd frontend && npm install
+cd ../dashboard && npm install
+cd ../backend && npm install
 ```
 
 ---
 
-## 🔑 Environment Variables
-
-Create a `.env` file inside the backend directory:
-
-```env
-PORT=3002
-
-MONGO_URI=your_mongodb_connection_string
-
-JWT_SECRET=your_jwt_secret
-
-FIREBASE_API_KEY=your_firebase_key
-
-FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-
-FIREBASE_PROJECT_ID=your_project_id
-```
-
----
-
-## ▶️ Running the Project
+## ▶️ Running the Application
 
 ### Start Frontend
 
 ```bash
-cd frontend
 npm start
 ```
 
 ### Start Dashboard
 
 ```bash
-cd dashboard
 npm start
 ```
 
 ### Start Backend
 
 ```bash
-cd backend
 npm start
 ```
 
 ---
 
-## 📸 Key Modules
-
-### User Authentication
-
-* Secure signup and login
-* JWT token generation
-* Route protection
-
-### Trading Dashboard
-
-* Portfolio overview
-* Holdings management
-* Market insights
-
-### Analytics Engine
-
-* Stock trend visualization
-* Performance metrics
-* Investment analysis
-
-### Transaction Management
-
-* Buy operations
-* Sell operations
-* Transaction history tracking
-
----
-
-## 🔒 Security Measures
+## 🔒 Security Features
 
 * JWT Authentication
-* Secure Password Hashing
+* Password Hashing with bcrypt
 * Protected API Endpoints
-* Input Validation
-* Authentication Middleware
-* Environment Variable Protection
+* Role-Based Access Control
+* Environment Variable Security
+* Input Validation & Sanitization
 
 ---
 
 ## 🌟 Future Enhancements
 
-* Real-Time WebSocket Updates
-* Advanced Portfolio Analytics
 * Watchlist Management
+* Real-Time Market Updates
+* Advanced Portfolio Analytics
+* AI-Based Investment Insights
 * Notification System
-* AI-Powered Market Insights
-* Advanced Order Types
-* Multi-Asset Support
+* Multi-Asset Trading Support
 
 ---
 
@@ -252,7 +190,7 @@ npm start
 
 **Durgesh Gupta**
 
-B.Tech Student | Full Stack Developer
+B.Tech Student | Full-Stack Developer
 
 Passionate about building scalable web applications, financial technology solutions, and modern full-stack systems.
 

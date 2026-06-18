@@ -35,7 +35,7 @@ const Signup = () => {
             // redirect to dashboard after successful signup
             if(res.data.success){
                 setTimeout(() => {
-                    window.location.href = `${process.env.REACT_APP_FRONTEND_URL}/login`;
+                    window.location.href = `${process.env.REACT_APP_BACKEND_URL}/login`;
                  },1000);
             }
         }catch(err){

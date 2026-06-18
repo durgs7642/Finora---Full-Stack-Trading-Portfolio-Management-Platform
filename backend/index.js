@@ -1,4 +1,5 @@
 require("dotenv").config();
+const path = require("path");
 const express = require("express");
 const mongoose = require('mongoose');
 // const bodyParser = require("body-parser");
@@ -202,6 +203,15 @@ app.use(cors({
 //    res.send("DOne!");
 // });
 
+app.use("/", express.static(
+    path.join(__dirname, "public/frontend")
+));
+
+
+app.use("/dashboard", express.static(
+    path.join(__dirname, "public/dashboard")
+));
+
 app.use("/auth", authRoute); 
 
 app.get('/allHoldings',userVerification, async(req, res)=> {
@@ -214,10 +224,28 @@ app.get('/allPositions', userVerification, async(req, res)=> {
     res.json(allPositions);
 });
 
-mongoose.connect(uri);
+try {
+    mongoose.connect(uri);
     console.log("DB Connected Successfully");
 
+} catch (error) {
+    console.log(error)
+}
+
+app.get(/^\/dashboard(?:\/.*)?$/, (req, res) => {
+    res.sendFile(
+        path.join(__dirname, "public/dashboard/index.html")
+    );
+});
+
+app.get(/^(?!\/auth).*$/, (req, res) => {
+    res.sendFile(
+        path.join(__dirname, "public/frontend/index.html")
+    );
+});
+
+
 app.listen(PORT, ()=>{
-    console.log("App is started on port 3002");
+    console.log(    "App is started on port 3002");
     
 } )

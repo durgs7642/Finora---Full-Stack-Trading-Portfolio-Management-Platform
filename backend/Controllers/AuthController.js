@@ -29,15 +29,16 @@ module.exports.Signup = async (req, res) => {
 
 module.exports.Login = async (req, res)=> {
     try{
-        const {email, password} = req.body;
+        const { email, password } = req.body;
         if(!email || !password){
             return res.json({message: "All fields are required"});
         }
         console.log("Login attempt for email:", email); // Debugging line
+        
         const user = await User.findOne({email});
         console.log(user);
         if(!user){
-            return res.status(403).json({message: "Incorrect email or password 1",success:false});
+            return res.status(403).json({message: "Incorrect email or password ",success:false});
         }
 
         const auth = await bcrypt.compare(password, user.password);
@@ -66,7 +67,7 @@ module.exports.Logout = async (req, res) => {
      sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
     secure: process.env.NODE_ENV === "production",  // set to true if using HTTPS
     
-  });
+  });   
 
   return res.status(200).json({ success: true, message: "Logged out successfully" });
 };

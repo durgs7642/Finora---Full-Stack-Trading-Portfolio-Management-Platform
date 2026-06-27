@@ -12,7 +12,7 @@ function Universe() {
     return (
         <div className='container  mt-5'>
             <div className='row mb-5 text-center'>
-                <h3>The Zerodha Universe</h3>
+                <h3>The Finora Universe</h3>
                 <p>Extend your trading and investment experience even further with our partner platforms</p>
 
                 <div className='col-4 p-3 mt-5'>
@@ -37,7 +37,7 @@ function Universe() {
                 </div>
 
                 <div className='col-4 p-3'>
-                    <img src='media/images/zerodhaFundhouse.png'style={{ height: "55px" }} />
+                    <img src='media/images/streakLogo.png'style={{ height: "55px" }} />
                     <p className='text-muted text-center' style={{ fontSize: "14px", padding: "25px 50px 25px 50px", marginLeft: "50px", marginRight: "50px" }}>Our asset management venture
                      that is creating simple and transparent index
                      funds to help you save for your goals.</p>

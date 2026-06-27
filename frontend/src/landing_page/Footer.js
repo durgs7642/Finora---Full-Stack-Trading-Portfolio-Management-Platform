@@ -7,7 +7,7 @@ function Footer() {
         <div className='row mt-5'>
             <div className='col-3 '>
                 <img src='media/images/logo.svg' style={{width:"43%",marginBottom:"20px"}}/>
-                <p className='text-muted' style={{fontSize:"13px"}}>© 2010 - 2025, Zerodha Broking Ltd. <br></br>
+                <p className='text-muted' style={{fontSize:"13px"}}>© 2010 - 2025, Finora Broking Ltd. <br></br>
                    All rights reserved.</p>
                    <a href='#' style={{color:"gray",padding:"10px",fontSize:"20px"}}><i class="fa-brands fa-x-twitter" ></i></a>
                    <a href='#' style={{color:"gray",padding:"10px",fontSize:"20px"}}><i class="fa-brands fa-square-facebook"></i></a>
@@ -24,8 +24,8 @@ function Footer() {
                 <a href='#' style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Philosophy</a><br></br>
                 <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Press & media</a><br></br>
                 <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Careers</a><br></br>
-                <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Zerodha Cares (CSR)</a><br></br>
-                <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Zerodha.tech</a><br></br>
+                        <a href='#' style={{ textDecoration: "none", color: "gray", lineHeight: "2.5rem", fontSize: "15px" }}>Finora Cares (CSR)</a><br></br>
+                        <a href='#' style={{ textDecoration: "none", color: "gray", lineHeight: "2.5rem", fontSize: "15px" }}>Finora.tech</a><br></br>
                 <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Open source</a><br></br>
             </div>
             <div className='col-3'>
@@ -38,7 +38,7 @@ function Footer() {
                 <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Bulletin</a><br></br>
                 <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Bulletin</a><br></br>
                 <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Circular</a><br></br>
-                <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Z-Connect blog</a><br></br>
+                <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>F-Connect blog</a><br></br>
                 <a href='#'style={{textDecoration:"none",color:"gray",lineHeight:"2.5rem", fontSize:"15px"}}>Downloads</a><br></br>
             </div>
             <div className='col-3'>
@@ -54,7 +54,7 @@ function Footer() {
             </div>
         </div>
         <div className='mt-5'>
-        <p className='text-muted' style={{fontSize:"10px",marginTop:"10px",lineHeight:"1.2rem"}}>Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; SEBI Registration no.: INZ000038238 Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to <a href='#' style={{textDecoration:"none"}}>complaints@zerodha.com</a>, for DP related to <a href='#' style={{textDecoration:"none"}}>dp@zerodha.com</a>. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF</p>
+                    <p className='text-muted' style={{ fontSize: "10px", marginTop: "10px", lineHeight: "1.2rem" }}>Finora Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration no.: INZ000031633 CDSL/NSDL: Depository services through Finora Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity Trading through Finora Commodities Pvt. Ltd. MCX: 46025; SEBI Registration no.: INZ000038238 Registered Address: Finora Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to <a href='#' style={{textDecoration:"none"}}>complaints@finora.com</a>, for DP related to <a href='#' style={{textDecoration:"none"}}>dp@finora.com</a>. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF</p>
 
         <p className='text-muted' style={{fontSize:"10px",marginTop:"10px",lineHeight:"1.2rem"}}>Procedure to file a complaint on <a href='#'style={{textDecoration:"none"}}>SEBI SCORES</a>: Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances</p>
 
@@ -66,7 +66,7 @@ function Footer() {
 
         <p className='text-muted' style={{fontSize:"10px",marginTop:"10px",lineHeight:"1.2rem"}}>India's largest broker based on networth as per NSE. <a href='#' style={{textDecoration:"none"}}>NSE broker factsheet</a></p>
 
-        <p className='text-muted' style={{fontSize:"10px",marginTop:"10px",lineHeight:"1.2rem"}}>"Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Zerodha and offering such services, please<a href='#'style={{textDecoration:"none"}}> create a ticket here</a>.</p>
+                    <p className='text-muted' style={{ fontSize: "10px", marginTop: "10px", lineHeight: "1.2rem" }}>"Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Finora and offering such services, please<a href='#'style={{textDecoration:"none"}}> create a ticket here</a>.</p>
         </div>
         <p className='text-muted mb-4 mt-2 ' style={{marginLeft:"200px"}}> 
         <a href='#' className='text-muted' style={{fontSize:"13px",paddingRight:"25px",textDecoration:"none"}}>NSE</a>

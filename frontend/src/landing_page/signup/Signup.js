@@ -49,7 +49,7 @@ const Signup = () => {
         <>
             
             <div className="auth-container">
-                <h2>Create your Zeerodha account</h2>
+                <h2>Create your Finora account</h2>
                 <form onSubmit={handleSubmit} className="auth-form">
                     <input type = "email" name="email" placeholder="Email" onChange={handleChange} required />
                     <input type = "text" name="username" placeholder="Username" onChange={handleChange} required />

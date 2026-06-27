@@ -13,12 +13,12 @@ function CreateTicket() {
             <a href='' style={{textDecoration:"none"}}>Company, Partnership and HUF Accounts</a><br/>
             <a href='' style={{textDecoration:"none"}}>Opening</a><br/>
             <a href='' style={{textDecoration:"none"}}>NRI Account Opening</a><br/>
-            <a href='' style={{textDecoration:"none"}}>Charges at Zerodha</a><br/>
-            <a href='' style={{textDecoration:"none"}}> Zerodha IDFC FIRST Bank 3-in-1 Account</a><br/>
+            <a href='' style={{textDecoration:"none"}}>Charges at Finora</a><br/>
+            <a href='' style={{textDecoration:"none"}}> Finora IDFC FIRST Bank 3-in-1 Account</a><br/>
             <a href='' style={{textDecoration:"none"}}>Getting started</a><br/>
           </div>
            <div className='col-4 ' style={{lineHeight:"2.5"}}>
-            <h4 className='mt-5 mb-4'><i class="fa-solid fa-user fa-xs fs-6" style={{marginRight:"5px"}}></i>Your Zerodha Account</h4>
+            <h4 className='mt-5 mb-4'><i class="fa-solid fa-user fa-xs fs-6" style={{ marginRight: "5px" }}></i>Your Finora Account</h4>
             <a href='' style={{textDecoration:"none"}}>Login Credentials</a><br/>
             <a href='' style={{textDecoration:"none"}}> Account Modification and Segment Addition</a><br/>
             <a href='' style={{textDecoration:"none"}}>DP ID and bank details</a><br/>
@@ -26,7 +26,7 @@ function CreateTicket() {
             <a href='' style={{textDecoration:"none"}}>Transfer and conversion of shares</a><br/>
           </div>
            <div className='col-4 mb-5 ' style={{lineHeight:"2.5"}}>
-            <h4 className='mt-5 mb-4'><i class="fa-solid fa-chart-column fa-xs fs-6" style={{marginRight:"5px"}}></i>Your Zerodha Account </h4>
+            <h4 className='mt-5 mb-4'><i class="fa-solid fa-chart-column fa-xs fs-6" style={{ marginRight: "5px" }}></i>Your Finora Account </h4>
             <a href='' style={{textDecoration:"none"}}>Margin/Leverage, Product and Order types</a><br/>
             <a href='' style={{textDecoration:"none"}}>kite Web and Mobile</a><br/>
             <a href='' style={{textDecoration:"none"}}>Trading FAQs</a><br/>

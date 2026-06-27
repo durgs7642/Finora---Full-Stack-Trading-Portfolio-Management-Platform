@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+// import logo from "../../public/media/images/logo.svg";
 
 function Navbar() {
     
@@ -11,9 +12,9 @@ function Navbar() {
 
     return ( 
          <nav className="navbar navbar-expand-lg border-bottom" style={{backgroundColor:"#FFFF"}}>
-  <div className="container p-2">
+    <div className="container p-2">
     <Link className="navbar-brand" to="/"> 
-    <img src='media/images/logo.svg' alt='logo' style={{width:"23%"}}/>
+      <img src="/media/images/logo.svg" alt='logo' style={{width:"40%"}}/>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

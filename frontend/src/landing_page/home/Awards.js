@@ -9,7 +9,7 @@ function Awards() {
             </div>
             <div className='col-6 p-5 mt-5'>
                 <h1>Largest stock Broker in India </h1>
-                <p className='mb-5'>2+ million zerodha clients contribute to over 15% of all retail order <br></br>
+                <p className='mb-5'>2+ million Finora clients contribute to over 15% of all retail order <br></br>
                 volumes in India daily by trading and investing in:</p>
                 <div className='row'>
                     <div className='col-6'>
